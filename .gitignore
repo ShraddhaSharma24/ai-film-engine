@@ -34,4 +34,4 @@ Thumbs.db
 
 # Logs / temp
 *.log
-/tmp/
+/tmp/.gradio/
