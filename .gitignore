@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ── Secrets — NEVER commit these ────────────────────────────
+.env
+*.env
+# .env.example is intentionally NOT ignored — it's safe to commit
+
+# Project save files (user data)
+*.json
+!.env.example
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+/tmp/

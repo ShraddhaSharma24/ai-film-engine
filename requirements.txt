@@ -1,0 +1,9 @@
+# Core
+gradio>=4.0.0
+python-dotenv>=1.0.0
+
+# Gemini (active provider)
+google-genai>=0.8.0
+
+# Uncomment when you switch providers:
+# openai>=1.0.0        # for OpenAI or DeepSeek
